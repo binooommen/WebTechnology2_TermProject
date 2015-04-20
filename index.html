@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+
+<!--
+        Title: Term Project final
+        Name: Bino Oommen Samuel
+        Date: 17/04/2015
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+        <title>ChangeMe</title>
+		<link rel="stylesheet" href="themes/bino.css" />
+        <link rel="stylesheet" href="themes/bino.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+		<script type="text/javascript" src="html5gallery/jquery.js"></script>
+		<script type="text/javascript" src="html5gallery/html5gallery.js"></script>
+<!-- 		<style>
+			.ui-responsive p {
+				align:"center";
+			}
+			.ui-responsive img {
+				height:250px;
+				width:175px;
+			}
+		</style> -->
+    </head>
+    <body>
+		<!-- START HOME -->
+        <div data-role="page" data-theme="a" id="home">
+			<!-- START HEADER -->
+            <header data-role="header" >
+                <h1><img src="images/logo4.png" style="height: 50px; width: 50px;" alt="logo"><br>ChangeMe</h1>
+				<!-- START NAVBAR -->
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top" data-transition="fade">Home</a></li>
+						<li><a href="#products" class="ui-btn ui-icon-grid ui-btn-icon-top" data-transition="fade">Products</a></li>
+						<li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top" data-transition="fade">Contacts Us</a></li>
+					</ul>
+				</div>
+				<!-- END NAVBAR -->
+			</header>
+			<!-- END HEADER -->
+            <!-- START SECTION -->
+			<section data-role="content">	
+				<h2 style="text-align:center"><i>Change your lifestyle, Grab the best...</i></h2>
+				<a href="#aboutus" class="ui-btn ui-icon-info ui-btn-icon-top" data-transition="flip">About Us</a>
+				<a href="#company" class="ui-btn ui-icon-user ui-btn-icon-top" data-transition="flip">Company</a>
+				<a href="#mypage" class="ui-btn ui-icon-star ui-btn-icon-top" data-transition="flip">Latest Trends</a>
+				<!-- <img src="images/logo1.png" style="height: 250px; width: 250px;" alt="logo"> -->
+			</section>
+            <!-- END SECTION -->
+			<!-- START FOOTER -->
+			<div data-role="footer">
+				<h4>Copyright &copy; 2015 ChangeMe</h4>
+			</div>
+			<!-- END FOOTER -->
+        </div>
+		<!-- END HOME -->
+        <!-- START PRODUCTS -->
+        <div data-role="page" data-theme="a" id="products">
+            <header data-role="header">
+                <h1><img src="images/logo4.png" style="height: 50px; width: 50px;" alt="logo"><br>ChangeMe</h1>
+				<!-- START NAVBAR -->
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+						<li><a href="#products" class="ui-btn ui-icon-grid ui-btn-icon-top">Products</a></li>
+						<li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contacts Us</a></li>
+					</ul>
+				</div>
+				<!-- END NAVBAR -->
+			</header>
+            <section data-role="content">
+				<h2 style="text-align:center"><i>Our Products</i></h2>
+                <div class="content-primary">
+                    <!-- START GRID -->		
+					<!-- START PRODUCT -->	
+                    <div class="ui-grid-b ui-responsive">						
+						<!-- START PRODUCT GRID -->	
+						<div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/1.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Light weight and easy to carry
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/2.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Tight Fit and easy to wash
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 100</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/3.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Light weight and easy to carry
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>
+						<br>						
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/4.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Tight Fit and easy to wash
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/5.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Light weight and easy to carry
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 250</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/6.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Tight Fit and easy to wash
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 100</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/7.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Splendid colour 
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/8.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Splendid colour and easy to carry
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/9.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Light weight and Splendid colour
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/10.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Heavy weight and Splendid colour
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/11.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Light weight and easy to carry
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/12.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Light weight and easy to carry
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/13.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Splendid colour
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/14.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Easy to carry
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+						<!-- START PRODUCT GRID -->	
+                        <div class="ui-block-a">
+							<p style="text-align:center">
+								<img src="images/15.jpg" alt="hoodie">
+							</p>
+						</div>
+                        <div class="ui-block-b">
+							<p style="text-align:center">
+								Light weight
+							</p>
+						</div>
+                        <div class="ui-block-c">
+							<p style="text-align:center">
+								Price : <b>CAD 200</b>
+							</p>
+						</div>	
+						<br>
+						<!-- END PRODUCT GRID -->
+                    </div>
+					<!-- GRID ENDS-->
+                </div>
+            </section>
+			<!-- END SECTION -->
+			<!-- START FOOTER -->
+			<footer data-role="footer">
+				<h4>Copyright &copy; 2015 ChangeMe</h4>
+			</footer>
+			<!-- END FOOTER -->
+        </div>
+        <!-- PRODUCTS ENDS-->
+        <!-- ABOUT US-->
+        <div data-role="page" data-theme="a" id="aboutus">
+            <header data-role="header">
+                <h1><img src="images/logo4.png" style="height: 50px; width: 50px;" alt="logo"><br>ChangeMe</h1>
+				<!-- START NAVBAR -->
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+						<li><a href="#products" class="ui-btn ui-icon-grid ui-btn-icon-top">Products</a></li>
+						<li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contacts Us</a></li>
+					</ul>
+				</div>
+				<!-- END NAVBAR -->
+			</header>
+			<!-- START SECTION -->
+            <section data-role="content">
+                <h2>Welcome to my site. <br>Please come in and stay awhile</h2>
+                <p>ChangeMe manufactures and brings to you the latest trends, we concentrate on professionals who are in their youth, 
+                    we also bring to you accessories from other cool branded companies to make things perfect.</p>
+                <p>We have a vast collections of trends which you can avail at a much cheaper price compared to that we get in market.</p>
+            </section>
+			<!-- END SECTION -->
+			<!-- START FOOTER -->
+			<footer data-role="footer">
+				<h4>Copyright &copy; 2015 ChangeMe</h4>
+			</footer>
+			<!-- END FOOTER -->
+        </div>
+		<!-- END ABOUT US -->
+		
+        <!-- START COMPANY -->
+        <div data-role="page" data-theme="a" id="company">
+            <header data-role="header" data-position="inline">
+                <h1><img src="images/logo4.png" style="height: 50px; width: 50px;" alt="logo"><br>ChangeMe</h1>
+				<!-- START NAVBAR -->
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+						<li><a href="#products" class="ui-btn ui-icon-grid ui-btn-icon-top">Products</a></li>
+						<li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contacts Us</a></li>
+					</ul>
+				</div>
+				<!-- END NAVBAR -->
+            </header>
+			<!-- START SECTION -->
+            <section data-role="content" class="ui-content">
+                <h2 style="text-align:center"><i>The brains behind</i></h2>
+                <ul data-role="listview" data-filter="true" data-dividers="true" 
+							data-filter-placeholder="Search" data-inset="true">
+                    <li data-role="list-divider" data-theme="a">Full Time</li>
+                    <li>Bino</li>
+                    <li>Benita</li>
+
+                    <li data-role="list-divider" data-theme="a">Part Time</li>
+                    <li>Faiz</li>
+                    <li>Arun</li>
+
+                    <li data-role="list-divider" data-theme="a">Contract</li>
+                    <li>Divya</li>
+                    <li>Megha</li>
+                    <li>Merin</li>
+                    <li>Deviprasad</li>
+                    <li>Karthik</li>
+                    <li>Mini</li>
+                </ul>
+            </section>
+			<!-- END SECTION -->
+			<!-- START FOOTER -->
+			<footer data-role="footer">
+				<h4>Copyright &copy; 2015 ChangeMe</h4>
+			</footer>
+			<!-- END FOOTER -->			
+        </div>
+        <!-- ENDS COMPANY -->
+
+        <!-- START CONTACT -->
+        <div data-role="page" data-theme="a" id="contact">
+            <header data-role="header">
+                <h1><img src="images/logo4.png" style="height: 50px; width: 50px;" alt="logo"><br>ChangeMe</h1>
+				<!-- START NAVBAR -->
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+						<li><a href="#products" class="ui-btn ui-icon-grid ui-btn-icon-top">Products</a></li>
+						<li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contacts Us</a></li>
+					</ul>
+				</div>
+				<!-- END NAVBAR -->
+			</header>
+			<!-- START SECTION -->
+            <section data-role="content" class="ui-contain">
+                <h2>Contact Us</h2>
+                <form method="post" action="demoform.asp" data-ajax="false">
+                    <div class="ui-field-contain">
+                        <label for="name"><b>Name:</b></label>
+                        <input type="text" name="name" id="name" placeholder="Name">
+						
+						<label for="birthday"><b>DOB:</b></label>
+                        <input type="date" name="birthday" id="birthday">
+						
+						<label for="phone"><b>Phone:</b></label>
+                        <input type="text" name="phone" id="phone" placeholder="Your phone..">
+
+                        <label for="email"><b>E-mail:</b></label>
+                        <input type="email" name="email" id="email" placeholder="Your email..">
+						
+<!--                         <label for="province"><b>Province:</b></label>
+                        <select name="province" id="province">
+                            <option>Select</option>
+                            <option>ON</option>
+                            <option>BC</option>            
+                            <option>AB</option>
+                            <option>MB</option>
+							<option>YU</option>
+                            <option>SK</option>            
+                            <option>NF</option>
+                            <option>QB</option>
+							<option>NV</option>
+							<option>PE</option>
+							<option>NB</option>
+                        </select> -->
+						
+						<label for="city"><b>City:</b></label>
+                        <input type="text" name="city" id="city" placeholder="City">
+                        
+                        <label for="postal_code"><b>Postal Code</b></label>
+                        <input type="text" name="postal_code" id="postal_code" placeholder="Postal Code">
+						
+                        <label for="country"><b>Country</b></label>
+                        <input type="text" name="country" id="country" placeholder="Country">
+						
+                        <div>
+                            <label for="spend"><b>Willing to spend?</b></label>
+                            <input type="range" name="spend" id="spend" 
+								value="100" min="100" max="1000" data-highlight="true">
+                        </div>
+
+                        
+                        <div>
+							<p><b>How often do you buy from here?</b></p>
+                            <label for="never">Never</label>
+                            <input type="radio" name="buyMe" id="never" value="never">
+                            <label for="sometimes">Sometimes</label>
+                            <input type="radio" name="buyMe" id="sometimes" value="sometimes">
+                            <label for="often">Often</label>
+                            <input type="radio" name="buyMe" id="often" value="often">
+                        </div>
+
+						<div>
+							<p><b>Is this your first time here?</b></p>
+							<select name="first" id="first" data-role="slider">
+								<option value="off">No</option>
+								<option value="on">Yes</option>
+							</select>
+						</div>
+
+                        
+                        <div>
+							<p><b>How do you want us to send notifications?</b></p>
+                            <label for="email">
+                                <input type="checkbox" name="intIn" id="email" value="email">E-mail
+                            </label>
+
+                            <label for="mail">
+                                <input type="checkbox" name="intIn" id="mail" value="mail">Mail
+                            </label>
+
+                            <label for="msg">
+                                <input type="checkbox" name="intIn" id="msg" value="msg">SMS
+                            </label>
+                        </div>
+
+						
+						<div>
+							<p><b>Any suggestions?</b></p>
+							<textarea name="sug" id="sug"></textarea>
+						</div>
+
+
+                        <div data-role="main" data-theme="a" class="ui-content">	
+                            <a href="#popupDialog" data-rel="popup" 
+								data-position-to="window" 
+								class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-check ui-btn-icon-left ui-btn-a" 
+								data-transition="pop">
+								Submit
+							</a>
+                            <div data-dismissible="false" data-role="popup" id="popupDialog" 
+								data-theme="a" data-overlay-theme="b" class="ui-corner-all">
+                                <div data-role="header">
+                                    <h3>Submitted</h3>
+                                </div>
+
+                                <div data-role="main" class="ui-content"  >
+                                    <h2>Thanks. We will process your request as soon as possible.</h2>
+                                    <a href="#home" 
+									class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b ui-icon-back ui-btn-icon-left" 
+									data-rel="back">
+										Go Back
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+			<!-- END SECTION -->
+			<!-- START FOOTER -->
+			<footer data-role="footer">
+				<h4>Copyright &copy; 2015 ChangeMe</h4>
+			</footer>
+			<!-- END FOOTER -->		
+        </div>
+        <!-- END CONTACT -->
+		
+		<!-- START MYPAGE -->
+        <div data-role="page" data-theme="a" id="mypage">
+			<!-- START HEADER -->
+            <header data-role="header" >
+                <h1><img src="images/logo4.png" style="height: 50px; width: 50px;" alt="logo"><br>ChangeMe</h1>
+				<!-- START NAVBAR -->
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+						<li><a href="#products" class="ui-btn ui-icon-grid ui-btn-icon-top">Products</a></li>
+						<li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contacts Us</a></li>
+					</ul>
+				</div>
+				<!-- END NAVBAR -->
+			</header>
+			<!-- END HEADER -->
+            <!-- START SECTION -->
+			<section data-role="content">	
+				<h2 style="text-align:center"><i>Change your lifestyle, Grab the best...</i></h2>
+				<center><div style="display:none;" class="html5gallery" data-skin="darkness" data-width="300" data-height="272">
+				  
+					<a href="images/3.jpg"><img src="images/3.jpg" alt="Hoodies"></a>
+				   <!-- Add videos to Gallery -->
+				  <!-- <a href="images/Big_Buck_Bunny.mp4"><img src="images/Big_Buck_Bunny.jpg" alt="Big Buck Bunny, Copyright Blender Foundation"></a> -->
+				  <!-- Add Youtube video to Gallery -->
+				  <a href="https://www.youtube.com/embed/AETyzo06ikU"><img src="images/2.jpg" alt="Youtube Video"></a>
+				  <a href="https://www.youtube.com/embed/eRw95vwMhXc"><img src="images/1.jpg" alt="Youtube Video"></a>
+				  <!-- Add Vimeo video to Gallery -->
+				  <!-- Add images to Gallery -->
+				  <a href="images/3.jpg"><img src="images/3.jpg" alt="Hoodies"></a>
+				  <a href="images/4.jpg"><img src="images/4.jpg" alt="Hoodies"></a>
+				  <a href="images/5.jpg"><img src="images/5.jpg" alt="Hoodies"></a>
+				  <a href="images/6.jpg"><img src="images/6.jpg" alt="Hoodies"></a>
+				  <a href="images/7.jpg"><img src="images/7.jpg" alt="Hoodies"></a>
+				  <a href="images/8.jpg"><img src="images/8.jpg" alt="Hoodies"></a>
+				  <a href="images/9.jpg"><img src="images/9.jpg" alt="Hoodies"></a>
+				  <a href="images/10.jpg"><img src="images/10.jpg" alt="Hoodies"></a>
+				  <a href="images/11.jpg"><img src="images/11.jpg" alt="Hoodies"></a>
+				  <a href="images/12.jpg"><img src="images/12.jpg" alt="Hoodies"></a>
+				  <a href="images/13.jpg"><img src="images/13.jpg" alt="Hoodies"></a>
+				  <a href="images/14.jpg"><img src="images/14.jpg" alt="Hoodies"></a>
+				  
+				  
+				  <a href="https://player.vimeo.com/video/1084537?title=0&amp;byline=0&amp;portrait=0"><img src="images/9.jpg" alt="Vimeo Video"></a>
+
+				</div></center>
+				
+			</section>
+            <!-- END SECTION -->
+			<!-- START FOOTER -->
+			<div data-role="footer">
+				<h4>Copyright &copy; 2015 ChangeMe</h4>
+			</div>
+			<!-- END FOOTER -->
+        </div>
+		<!-- END HOME -->
+    </body>
+</html>
